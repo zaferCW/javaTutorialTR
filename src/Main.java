@@ -4,22 +4,13 @@ import java.util.Scanner;
 public class Main{
 
     public static void main(String[] args) {
-        int numbers []= {12,13,321,432,34,4323,4,23};
+        int site[][][]=new int[2][3][4];
+        //site de apr daire ornegi verilebilir herbirinde 4 tane daire 3 katli bunlar 2 tane bina
 
-        int num = 34;
-        System.out.println("Arrays.toString(numbers) = " + Arrays.toString(numbers));
-
-        Arrays.sort(numbers);
-
-        System.out.println("Arrays.toString(numbers) = " + Arrays.toString(numbers));
-
-
-        System.out.println("Arrays.binarySearch(numbers,34) = " +
-                Arrays.binarySearch(numbers, num));
-
-        System.out.println("Arrays.binarySearch(numbers,35) = "
-                + Arrays.binarySearch(numbers, 35));//
-
+        System.out.println("Arrays.toString(arr2) = " +
+                Arrays.deepToString(site));
+        //Arrays.toString(arr2) = [[[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]],
+        //                      [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]]
 
     }
 
