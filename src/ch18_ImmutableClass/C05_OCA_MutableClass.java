@@ -1,12 +1,9 @@
+package ch18_ImmutableClass;
+
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
 
-public class Main {
-
+public class C05_OCA_MutableClass {
     public static void main(String[] args) {
-
 
         ArrayList<Integer> values = new ArrayList<>();
         System.out.println("values = " + values);
@@ -18,5 +15,7 @@ public class Main {
         for (Integer w :values   ) System.out.println(w);
 
         System.out.println("values = " + values);
+
+
     }
 }
