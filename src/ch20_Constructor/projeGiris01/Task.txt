@@ -1,0 +1,36 @@
+
+        TASK - >
+     Bu uygulama kulanıcıların bir ArrayListe kayıt zamanını da alarak
+     ekleyen ve sonrasında her dakikanın ilk 10 saniyesinde kaydolanları
+     şanslı kullanıcı olarak ekrana yazdıran bir uygulamadır.
+
+     Bunun için;
+     1- POJO class Bir user(Kullanıcı) class oluşturun fields:
+      String name ,
+     registerDate(kayıtZamanı) (data type->LocalDateTime )
+
+     2- Registration methods (KayıtMethodlar) isminde bir class
+     oluşturun ve
+     2 a) kullanicilari tutacaginiz bir arrayList create edin
+     2 b)  register() (kayıtAl()) isminde bir metod create ediniz
+     return type array list olcak
+     Kullanıcı Class'dan user ismini(name)
+     alarak ArrayList e ekleyin ve bu list i return edin.
+
+     3- Registration methods (KayıtMethodlar) classı na aynı
+      zamanda kendine parametre olarak
+     verilen ArrayListteki userlardan(kullanıcı obj)
+     her dakikanın ilk 10  saniyesinde kaydolanları
+     yazdıran printHappyUsers(sanslıKullanıcı) isminde bir metod create ediniz
+
+     4- giris paneli olusturun ayri bir class da
+      switch case ile methodlara yonlendirin
+      methodlar ile yapin
+
+     5- runner clas olusturun
+     Obj ile uyglamayı run ediniz
+
+     6 listele ve cikis method create edin
+
+
+
