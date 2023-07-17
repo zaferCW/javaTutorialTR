@@ -33,9 +33,11 @@ public class C01_AccessModifier {
     private C01_AccessModifier(int privateYas, int protectedYas) {
         System.out.println("access modifier i private olan ve pm si private ve protected olan const. dan selamlar");
         privateMethod();
-        this.privateYas = privateYas;
-        this.protectedYas = protectedYas;
+
     }
+
+  //  C01_AccessModifier objPrivate =
+  //          new C01_AccessModifier(25,55);
 
     public C01_AccessModifier(int privateYas, int protectedYas, int publicYas) {
         this.privateYas = privateYas;
@@ -62,6 +64,6 @@ public class C01_AccessModifier {
                 '}';
     }
 
-  //  C01_AccessModifier obj2 = new C01_AccessModifier(25,55);
+
 
 }
