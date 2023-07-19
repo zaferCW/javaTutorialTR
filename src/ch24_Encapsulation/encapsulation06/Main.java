@@ -108,7 +108,7 @@ class Employees{
 
     @Override
     public String toString() {
-        return "name is "+name + "\n"+
+        return "name is "+ name + "\n"+
                 "dob is "+dob+ "\n"+
                 "Salary is "+salary;
 
