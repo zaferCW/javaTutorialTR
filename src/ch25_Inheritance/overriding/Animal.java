@@ -24,7 +24,7 @@ Override edilen methodların access seviyeleri, parent class'taki
     public void yeme(){
         System.out.println("hayvan yer");
     }
-    public void icme(){
+    protected void icme(){
         System.out.println("hayvan icer");
     }
     public void hareket(){

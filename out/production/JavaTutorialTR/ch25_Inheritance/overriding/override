@@ -1,0 +1,15 @@
+   /*
+    Method Overriding with Access Modifiers There is Only one rule while doing Method overriding with
+    Access modifiers i.e.
+    Erişim Değiştiricilerle Metot Geçersiz Kılma
+    Access değiştiricilerle Metod geçersiz kılma yapılırken
+    sadece bir kural vardır, yani
+
+    If you are overriding any method, overridden method (i.e. declared in subclass) must not be more restrictive.
+    Herhangi bir yöntemi geçersiz kılıyorsanız, geçersiz kılınan yöntem (yani alt sınıfta bildirilen)
+
+    daha kısıtlayıcı olmamalıdır.
+
+    cocuk mirasi daha da artirabilir denebilir. Asiye hanimdan
+
+     */

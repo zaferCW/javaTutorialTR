@@ -19,44 +19,31 @@ public class Runner {
    */
     public static void main(String[] args) {
 
-        // data type obj name = new constructor name();
-        Animal animal1 = new Animal();
-        animal1.yeme();
-        animal1.hareket();
-        animal1.icme();
+        Cat cat1 = new Cat("cat");
+        Cat cat2 = new Cat();
 
-        System.out.println("***");
-        
+        System.out.println("cat1 = " + cat1);
+
+        System.out.println("cat2.number = " + cat2.number); //22 cat class dan
+        System.out.println("cat2.numberOfAnimals = " +
+                cat2.numberOfAnimals);// 500 animal classdan
+        System.out.println("cat2.numberOfPets = " +
+                cat2.numberOfPets);//201 pet class dan
+
+
         Pet pet1 = new Pet();
-        pet1.beslenme();
-        pet1.hareket();
+        System.out.println("pet1.number = " + pet1.number);
+        System.out.println("pet1.numberOfAnimals = " + pet1.numberOfAnimals);
 
-
-        System.out.println("/***");
-
-        Fish hamsi = new Fish();
-        hamsi.izgaraBalik();
-        hamsi.yeme();
-
-        System.out.println("/***");
-
-        Dog dog1 = new Dog();
-        dog1.dogMethod();
-        dog1.beslenme();
-        dog1.icme();
-
-
-
-
-
-
-
-
-
-
+        System.out.println("****");
+        pet1.icme();//pet dn
+        pet1.beslenme(); // pet den
+        pet1.hareket();//Animal class dan
+        pet1.yeme();//animal
 
 
 
 
     }
+
 }

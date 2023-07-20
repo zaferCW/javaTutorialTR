@@ -1,0 +1,9 @@
+
+
+
+  1) A ve B isminde iki class create ediniz.
+  2) A parent B child ilişkisi kurunuz.
+  3) A'da static initialize  edilmiş String bir  veriable create ediniz.
+  4) B de pm'siz bir cons create ediniz ve cons icinde A daki static veriable call ederek assingment yapınız
+  5) Bir runner class create edip her iki class dan obj
+  üreterek veriable print ediniz.
