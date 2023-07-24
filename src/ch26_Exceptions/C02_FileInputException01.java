@@ -45,7 +45,7 @@ public class C02_FileInputException01 {
         }
 
         System.out.println();
-        System.out.println("fis = " + fis);
+        System.out.println("fis = " + fis);//ref
 
 
     }
