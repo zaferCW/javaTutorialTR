@@ -1,0 +1,10 @@
+     1- fieldları ad, soyad, yas olan bir It pojo class'ı create ediniz.
+
+     2- fieldları okulAd, maxOgrenciSayisi,
+        ArrayList cinsinden Öğrencileri olan bir Clarusway pojo class create ediniz,
+
+     3- main metodunun olduğu OkulMain isimli bir class create ediniz.
+
+     4- bir okul obj create edip, bu okula max öğrenci miktarına ulaşana kadar öğrenci
+        ekleyiniz.Fakat oluşturacağınız öğrencilerin yaşı 15 i geçmemeli.
+        bu yaşı geçen bir öğrenci eklenmek istenir ise yerine başka öğrenci isteyiniz.

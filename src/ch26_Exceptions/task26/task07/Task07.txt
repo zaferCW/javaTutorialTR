@@ -1,0 +1,9 @@
+     1- filedları id, username, password, active (boolean), signedIn (boolean)
+        olan User isimli bir pojo class create ediniz.
+
+     4- UserMain isminde main için bir class cteate ediniz.
+     5- Kullanicidan 2 adet user bilgisi isteyerek bir ArrayList e doldurunuz.
+        active ve signedIn default olarak true, false atayabilirsiniz.
+        id yi sistem otomatik versin.,
+     6- eğer password 6 dan küçük olursa yeniden userı girsin.passwordun
+        6 karakterden küçük olup olmadığını classın içinde kontrol ediniz.

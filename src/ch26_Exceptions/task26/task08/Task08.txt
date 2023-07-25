@@ -1,0 +1,7 @@
+
+
+         1- fieldları accountNumber(her müşteriye özel numara olmalı) ve balance (bakiye) olan bir Account class'ı create ediniz  .
+         2- Account class'a deposit (ParaEkle) metodu ekleyiniz.
+         3- Account sınıfına withdraw (ParaÇıkar) metodu ekleyiniz.
+         4- withdraw de 5000 inin üzerine Günlük limiti aştınız uyarısı verilsin
+         5- Banka class'da main metodunda  account oluşturarak ihtimalleri deneyiniz.

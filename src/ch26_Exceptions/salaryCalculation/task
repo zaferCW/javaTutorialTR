@@ -1,0 +1,39 @@
+Maas Hesaplama Projesi:
+
+Employee (Çalışan) sınıfı oluşturun ve çalışanın
+adı, maaşı,
+çalışma saatleri ve işe başlama yılı bilgilerini içeren değişkenleri
+tanımlayın.
+Ayrıca, bu sınıfta aşağıdaki metotları tanımlayın:
+
+Vergi hesaplamak için bir tax() metodu oluşturun. Maaşı 10.000'den az
+olanlar için vergi yoktur. Maaşı 10.000 TL'den yüksek olanlar için
+vergi maaşın %3'üdür.
+
+Bonus hesaplamak için bir bonus() metodu oluşturun. Çalışanın 40
+saatten fazla çalışması durumunda, her fazla çalışılan saati için bonus
+ödenir. Bonus ödemesi saat başına 100 TL'dir.
+
+Maaş artışını hesaplamak için bir raiseSalary() metodu oluşturun.
+Çalışanın işe başlama yılına göre maaş artışı yapılacaktır. İşe başlama
+yılına göre çalışanın maaşı:
+
+5 yıldan az ise, maaşı %5 artırılır.
+5 ila 15 yıl arasında ise, maaşı %10 artırılır.
+15 yıldan fazla ise, maaşı %20 artırılır.
+
+Son olarak, bir toString() metodu oluşturun ve bu metot çalışanın
+adını, maaşını, çalışma saatlerini,
+ işe başlama yılını ve şirket adını (Clarusway) döndürsün.
+
+Runner (Çalıştırıcı) sınıfı oluşturun ve bu sınıfta Employee sınıfından
+bir nesne oluşturun. Oluşturulan nesnenin adını, maaşını,
+ödenecek vergiyi,
+ödenecek bonusu ve maaş artışını ekrana yazdırın.
+Ayrıca, çalışanın toplam
+ ödenecek ücretini ve şirket adını ekrana yazdırın.
+  Son olarak, çalışanın
+ tüm bilgilerini (adı, maaşı, çalışma saatleri,
+ işe başlama yılı ve şirket adı)
+  toString() metodu kullanarak ekrana yazdırın.
+
