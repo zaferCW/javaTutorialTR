@@ -1,0 +1,32 @@
+ScrumTeam sınıfı: Bu sınıf, Scrum takımının bir üyesini temsil
+eder ve takımın ortak özelliklerini ve
+yöntemlerini içerir.
+    public String name, jobTitle;
+     public double salary;
+
+ Sınıf soyut bir sınıf olduğundan, DailyStandUp()
+ ve Demo() yöntemlerinin gövdeleri
+diğer alt sınıflar tarafından tanımlanacaktır.
+getEmployeeInfo()
+ yöntemi, takım üyelerinin bilgilerini
+ekrana yazdırmak için kullanılır.
+
+Testers sınıfı: Bu sınıf, bir ScrumTeam üyesi olarak test
+ekibinin bir üyesini temsil eder. Bu sınıf,
+ScrumTeam sınıfından kalıtım almaktadır ve DailyStandUp()
+ ve Demo() yöntemlerini kendi gereksinimlerine
+göre tanımlamaktadır.
+
+Developers sınıfı: Bu sınıf, bir ScrumTeam üyesi olarak geliştirme ekibinin bir üyesini temsil eder.
+Bu sınıf da ScrumTeam sınıfından kalıtım almaktadır ve DailyStandUp() ve Demo() yöntemlerini kendi
+gereksinimlerine göre tanımlamaktadır.
+
+BOA sınıfı: Bu sınıf, Scrum takımını oluşturan Testers ve Developers
+nesnelerini tanımlar ve
+bu nesneleri bir diziye ekler. Ardından, bu dizi elemanlarının
+her biri için getEmployeeInfo() yöntemi çağrılarak,
+takım üyelerinin bilgileri ekrana yazdırılır.
+
+Yukarıdaki kodlar, bir Scrum takımını oluşturmak için kullanılan sınıfları ve bunların yöntemlerini gösterir.
+Bu kodları inceleyerek, Scrum metodolojisi hakkında daha fazla bilgi edinebilir ve bu metotla çalışan bir
+takımın nasıl işlediğini anlayabilirsiniz.
