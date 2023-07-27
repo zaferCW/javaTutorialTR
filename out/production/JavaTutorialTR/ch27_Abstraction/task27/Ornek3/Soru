@@ -1,0 +1,20 @@
+
+    1.Bölüm
+      içinde taste() bir interface yazınız.
+      dooble ucret()
+    2.Bölüm
+    Aşağıdaki metodları olan classları yazınız.food dan implemente alarak
+
+    AdanaKebab: marinade(), grill()
+    Lahmacun: dough(), topping(), bake()
+    Borsh: boil()
+    Palov: fry(), boil()
+
+    3.Bölüm
+    TechnoCafe isimli bir classdaki bir main metodunda kullanıcıya menüyü sunarak
+    kullanıcı tamam  seçemeğini seçene kadar yemek siparişi alınız.
+
+    4. Bölüm
+    Verilen siparişleri main de bir döngü vasıtasıyla TechnoKitchen isimli
+    classa tek tek göndererek hazırlatınız, ve ücret bilgisini oluşturup.
+    yazdırınız.
