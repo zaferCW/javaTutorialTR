@@ -18,8 +18,8 @@ public class Task02 {
         List<Integer > numberList = new ArrayList<>(Arrays.asList(2,13,56,23,45,14,40));
         System.out.println("numberList in ilk hali= " + numberList);
 
-        int altSinir =20;
-        int ustSinir =40;
+        int altSinir = 20 ;
+        int ustSinir = 40 ;
 
         Iterator <Integer > iterator = numberList.iterator();
 
