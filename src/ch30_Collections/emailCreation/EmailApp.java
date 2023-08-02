@@ -2,7 +2,7 @@ package ch30_Collections.emailCreation;
 
 import java.util.Scanner;
 
-public class EmailApp {
+public class EmailApp implements InterfaceMethods{
     private String name;
     private String lastName;
     private String password;
@@ -25,7 +25,6 @@ public class EmailApp {
         +"."+department+"@"+emailSuffix;
 
 
-
     }
 
 
@@ -41,7 +40,7 @@ public class EmailApp {
 
         char [] password = new char[ passwordLength ];
 
-        for (int i = 0; i <passwordLength ; i++) {
+        for (int i = 0; i < passwordLength ; i++) {
             int random = (int) (Math.random() * dataSource.length());
 
             password[i] = dataSource.charAt(random);
@@ -60,7 +59,9 @@ public class EmailApp {
                 '}';
     }
 
-public String setDepartment(){
+
+
+    public String setDepartment(){
     System.out.println("bu departmanlardan birini sec\n" +
             "1 Test Automation\n" +
             "2 Developer\n" +

@@ -14,7 +14,6 @@ public class Main {
         String lastName =input.nextLine();
         EmailApp  email1 = new EmailApp(name , lastName);
 
-
         System.out.println("email1 = " + email1);
 
 

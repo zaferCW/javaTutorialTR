@@ -1,0 +1,40 @@
+Bu Java sınıfı bir e-posta uygulamasını temsil eder.
+
+ step 1 EmailApp sınıfı,POJO
+ fields kullanıcı adını
+  soyadını alır
+  password
+  department
+  email
+  emailSuffix ornek "gmail.com" clarusway.com
+  passwordLength=12; //olusturlucak passwordlerin length inin 12 olmasi istendigi icin
+
+step 2 JWT token gibi dusunun
+rastgele bir şifre oluşturmasıni saglayan method create edin.
+kullanıcının rastgele bir şifre oluşturması için bir
+setRandomPassWord() metodu create edin.
+
+ step 3
+ to sting methodu ile bilgileri gosterin
+
+ step 4
+ kullanıcıdan departman seçimini almak için bir setDepartment()
+metodu create edin
+
+step 5
+ EmailApp sınıfı, e-posta adresi oluşturmak için kullanıcı adını,
+  soyadını, seçilen departmanı ve şirket
+alan adını birleştirir. bu islemi const body si icinde yapabilirsin
+
+step 6
+main class create et
+Kullanıcının adı ve soyadı gibi giriş bilgilerini al
+to String ile yazdir
+
+EmailApp sınıfı aşağıdaki görevleri yerine getirir:
+Kullanıcının seçtiği departmana göre e-posta adresi oluşturmak
+Rastgele bir şifre oluşturmak
+Kullanıcının e-posta adresini,  ve
+oluşturulan şifreyi göstermek için bir toString() metodu sağlamak
+
+******* methodlari ayri bir class a tasiyin  *****
