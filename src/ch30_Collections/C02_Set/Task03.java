@@ -33,4 +33,14 @@ public class Task03 {
         return list;
     }
 
+    //Zeynep hanim meryem hanimlardan 2.yol
+    // ArrayList<String> ortakList = new ArrayList<>();
+// for (String w : s1) {
+//     if (s2.contains(w)) {
+//         ortakList.add(w);
+//     }
+// }
+// return ortakList;
+
+
 }
