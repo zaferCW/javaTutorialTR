@@ -36,7 +36,7 @@ public class PolymorphismReview {
         //Static member 'ch28_Interface_Polymorphism.Polymorphism.A.methodC()' accessed via instance reference
         //not method statiic old iicn obje ile cagrilinca parent dan gelir child da olsa bile
 
-        //Task
+        //TaskSahaf.txt
         //B class indan methodC yi call edin
         B.methodC();//method C from B class
 

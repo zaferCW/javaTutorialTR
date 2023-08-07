@@ -19,7 +19,7 @@ public class C01_forLoop {
         //i variable name ve sartin sinirlarini belirler
         //i++ ise herseferinde i yi  bir artir demek
 
-    //  / Task    2 basamaklı tek sayıları yan yana print eden code create ediniz -> 11,13,15...99
+    //  / TaskSahaf.txt    2 basamaklı tek sayıları yan yana print eden code create ediniz -> 11,13,15...99
        for (int i = 11 ; i <= 99 ; i+=2 ){
            System.out.print(i+" ");
        }

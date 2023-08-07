@@ -85,7 +85,7 @@ public class C01_DataTypes {
 
         System.out.println("f1*f2 = " + f1 * f2);//f1*f2 = 192.3525
 
-        //Task -> iki farklı byte tanımlayıp toplam ve farkını print ediniz
+        //TaskSahaf.txt -> iki farklı byte tanımlayıp toplam ve farkını print ediniz
         byte sayi1= 100;
         byte sayi2 = 29;
         byte toplam = (byte) (sayi1+ sayi2) ;
@@ -98,7 +98,7 @@ public class C01_DataTypes {
         System.out.println(sayi3 - sayi4);//50
 
 
-        //Task -> iki farklı tamsayı türünde sayı  tanımlayıp toplamini print ediniz
+        //TaskSahaf.txt -> iki farklı tamsayı türünde sayı  tanımlayıp toplamini print ediniz
         int c = 33;
         byte by = 120;
         System.out.println("c + by = " +( c + by));//c + by = 153
@@ -106,13 +106,13 @@ public class C01_DataTypes {
         // String ifadeler varsa sayisa degerler toplanmaz yanyana yazilir
 
 
-        //Task -> tamsayı ve ondalıklı sayı tanımlayıp toplami  print ediniz
+        //TaskSahaf.txt -> tamsayı ve ondalıklı sayı tanımlayıp toplami  print ediniz
         int sayi5= 10;
         double sayi6 = 10.5;
         System.out.println(sayi5 + sayi6);//20.5
 
 
-        //Task -> tamsayı ve char data type iki variable  tanımlayıp toplam  print ediniz
+        //TaskSahaf.txt -> tamsayı ve char data type iki variable  tanımlayıp toplam  print ediniz
         int sayi7 = 45;
         char para = '$';
         System.out.println(sayi7 + para);//81
@@ -124,7 +124,7 @@ public class C01_DataTypes {
 
         //variable in uzerine gelinip (hover olundugunda) variable in syntax ini gosterrir
 
-        // Task ad ve soyadınızı ve yasınızı print ediniz.
+        // TaskSahaf.txt ad ve soyadınızı ve yasınızı print ediniz.
         String ad = "Rukiye hanim";
         String soyad= "tester";
         int yas2 = 33;

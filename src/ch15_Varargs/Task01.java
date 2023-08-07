@@ -4,7 +4,7 @@ public class Task01 {
     public static void main(String[] args) {
 
         /*
-        Task ->
+        TaskSahaf.txt ->
         verilen Stringleri birlestiren concat isimli METHOD create ediniz.
         String [] arr1 = {  "m", "e", "r", "v", "e"};
         String [] arr2 = {  "a", "l", "i"};

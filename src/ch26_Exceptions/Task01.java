@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Task01 {
     public static void main(String[] args) {
           /*
-        Task -> Girilen password'un 6 karakterden az 10 karakterden fala olmamasını kontrol eden code create ediniz
+        TaskSahaf.txt -> Girilen password'un 6 karakterden az 10 karakterden fala olmamasını kontrol eden code create ediniz
          */
         Scanner input = new Scanner(System.in);
         System.out.println("password gir");

@@ -24,7 +24,7 @@ public class C01_Varargs {
 
         */
 
-        // Task -> verilen iki sayı toplamını print eden METHOD create ediniz
+        // TaskSahaf.txt -> verilen iki sayı toplamını print eden METHOD create ediniz
 
         int sayi1 = 99;
         int sayi2 = 15;
@@ -34,7 +34,7 @@ public class C01_Varargs {
         topla(sayi1,sayi2);
         topla(sayi3,sayi4);
 
-        // Task -> verilen üç sayı toplamını print eden METHOD create ediniz
+        // TaskSahaf.txt -> verilen üç sayı toplamını print eden METHOD create ediniz
         topla(sayi3,sayi4,sayi1);
 
         System.out.println(" *** varargs ile ***");
@@ -42,7 +42,7 @@ public class C01_Varargs {
         toplaVarargs(sayi1, sayi2,sayi4,33,35 );
         toplaVarargs(sayi1, sayi2, sayi4, 33 , sayi3, sayi1,22 );
 
-        // Task -> verilen String'lerin en fazla karaktere sahip olanı print eden
+        // TaskSahaf.txt -> verilen String'lerin en fazla karaktere sahip olanı print eden
         // METHOD create ediniz ->>
         // parametre saysı belirli değil : varargs
         String str1 = "java";

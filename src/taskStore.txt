@@ -1,0 +1,40 @@
+  ************** BU PROGRAMDA SU ISLEMLER YAPILMAKTADIR**********
+   ============= ISLEMLER =============
+		 1-addItem    *** create
+		 3-getProducts   *** read
+		 4-delete        *** delete
+		 5-ANA MENU    ***   menu
+		 Q-CIKIS     ***  exit
+
+		datalarimizi list , map gibi collection
+		encapsulation POJO class create edilmeli
+		kac class ve isimler
+
+	1.step	Brand class => POJO classdir. hermarka icin id name; list tutmaliyim
+		print method yazabilirz .
+		girilen id yi alip listen control eden varsa true donen yoksa false donen method++
+
+	2.step	Productclass  olmasi gereken instance variable lar tanimlanmali
+		id name price discountRate, amount brand, screenSize, ram memory
+		bu class i parent yap.
+
+		abstract olsun ve methodlari burda tanimla
+		her POJO class da oldugu gubi constructor ve getter setter lari create et
+
+	3.step NoteBook child yap product in
+	laptop list olmali
+	product daki abstract meth ler burada override edilme zorunda
+	method body leri ve logic leri yaz
+
+	4.step	Store uygulama buradan run edilsin
+	user ilk bu vitrni gorsun
+	yapilaacak islemler buradan yonlendirilsin
+	  System.out.println("notbook islemleri icin 1\n" +
+                    "marka listeleme icin 2\n" +
+                    "cikis iicn 3 tuslarina basiniz");
+
+	5.step 	Main class store class dan run edilsin
+	trick Store claass indan obje create edilmeli
+	her java class inda gorunmeyen default empty constructor vardir
+	biz pm li bir const. create ettigimiz zaman bu default const ezilir. tekrar manuel pm siz const yazmaliyiz
+

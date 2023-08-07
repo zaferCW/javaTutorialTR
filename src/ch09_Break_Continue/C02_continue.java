@@ -11,7 +11,7 @@ atlar ve loop’un bir sonraki değerinden devam eder.
 
  */
 
-    // Task-> girilen bir mail hesabındaki ' ' karakterlerini handle ederek print eden code cerate ediniz.
+    // TaskSahaf.txt-> girilen bir mail hesabındaki ' ' karakterlerini handle ederek print eden code cerate ediniz.
         Scanner input = new Scanner(System.in);
         System.out.println("mail gir");
 

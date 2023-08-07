@@ -14,7 +14,7 @@ public class C06_RecursiveMethod {
     Bazı karmaşık çözülmesi güç problemlerde döngülere göre daha kısa ve anlaşılır olduğu için.
      */
 
-        //Task kullanicidan aldiginiz sayinin foktoriel ini hesaplayan method create edini
+        //TaskSahaf.txt kullanicidan aldiginiz sayinin foktoriel ini hesaplayan method create edini
 
         Scanner input = new Scanner(System.in);
         System.out.println("bir sayi gir");

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Task04_Nested {
     public static void main(String[] args) {
         /*
-        Task ->
+        TaskSahaf.txt ->
         girilen boyuttta bir kare için
          Ekran Çıktısı
             Bir sayı giriniz: 7

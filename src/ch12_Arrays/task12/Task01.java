@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Task01 {
     public static void main(String[] args) {
-        //Task-> kullanıcidan alınan değerlerle bir int array elemanlarını bukukten kucuge   print eden code create ediniz.
+        //TaskSahaf.txt-> kullanıcidan alınan değerlerle bir int array elemanlarını bukukten kucuge   print eden code create ediniz.
 
         Scanner input=new Scanner(System.in);
 

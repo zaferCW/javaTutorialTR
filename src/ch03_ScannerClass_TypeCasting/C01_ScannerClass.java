@@ -37,7 +37,7 @@ public class C01_ScannerClass {
 
         //  \\d regex ifadesi rakamlari simgeler digit demek
 
-        // Task -> Kullanıcının girdiği değere göre kare alanı ve cevresini hesaplayan bir code
+        // TaskSahaf.txt -> Kullanıcının girdiği değere göre kare alanı ve cevresini hesaplayan bir code
         // create ediniz...
         //trick soru Scanner objesi create etmeli miyiz?
         //edebiliriz fakat gereksiz bellekte yer isgali olur

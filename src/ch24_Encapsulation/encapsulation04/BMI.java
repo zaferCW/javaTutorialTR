@@ -3,7 +3,7 @@ package ch24_Encapsulation.encapsulation04;
 import java.util.Scanner;
 
 public class BMI {
-    /* Task ->
+    /* TaskSahaf.txt ->
     1. step -> Bmı class fields -> name, age, weight,height: encapsulated
     2. step -> getBMI() method -> bmi = weight/(height*height) return type olmalı
     3. step -> getStatus() method ->

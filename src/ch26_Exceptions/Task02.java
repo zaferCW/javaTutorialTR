@@ -9,7 +9,7 @@ public class Task02 {
     public static void main(String[] args) {
 
                 /*
-    Task -> girilen hava sıcaklığı 10'un altında ise IOException hatası tanımlayıp hatayı print eden method create
+    TaskSahaf.txt -> girilen hava sıcaklığı 10'un altında ise IOException hatası tanımlayıp hatayı print eden method create
     edip mainde kontrol ediniz.
 
      */

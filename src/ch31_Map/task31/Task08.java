@@ -3,7 +3,7 @@ package ch31_Map.task31;
 public class Task08 {
 
     /*
-     Task-> aşağıdaki çıktıyı print eden code create ediniz.
+     TaskSahaf.txt-> aşağıdaki çıktıyı print eden code create ediniz.
      Kiraz 100
      İncir 200
      Enginar 150

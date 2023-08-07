@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Task01 {
     public static void main(String[] args) {
        /*
-        Task->
+        TaskSahaf.txt->
         Node değerleri "dortmund","javaCAN","javaTAR","berlin" olan bir linkedList create ediniz.
         Girilen bir String değeri linkedListte varlığını kontrol edip varsa silip "silme islemi basarili"
         yoksa "girdiginiz eleman list te yok" print eden code create ediniz

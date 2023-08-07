@@ -33,7 +33,7 @@ public class C05_startWith_endWith {
         System.out.println("city.endsWith(str) = " + city.endsWith(str));
 
 
-        //Task -> girilen e-mail hesabının  @gmail.com ile  bitiyorsa "hesabınız onaylandı"
+        //TaskSahaf.txt -> girilen e-mail hesabının  @gmail.com ile  bitiyorsa "hesabınız onaylandı"
         // aksi durumda "geçerli hesap giriniz
         // print edn code creae ediniz.
 

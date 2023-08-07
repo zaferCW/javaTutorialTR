@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class C04_PinKontrol {
 
     public static void main(String[] args) {
-        // Task -> String data type bir pin datasının 3 giriş hakkına gore kontrol eden code create ediniz.
+        // TaskSahaf.txt -> String data type bir pin datasının 3 giriş hakkına gore kontrol eden code create ediniz.
         Scanner input = new Scanner(System.in);
 
         String sifre = "12345.abs";

@@ -4,7 +4,7 @@ public class Task02 {
     public static void main(String[] args) {
 
         /*
-        Task ->
+        TaskSahaf.txt ->
         array deki ilk sayı hariç diğerlerini toplayan ve toplam ile ilk sayıyı çarpan METHOD create ediniz.
          */
 

@@ -7,7 +7,7 @@ import java.util.TreeMap;
 public class Task04 {
 
     public static void main(String[] args) {
-        //Task->   TreeMap Kullanarak Bir cumlenin içindeki karakterlerin frekansını(adetini)
+        //TaskSahaf.txt->   TreeMap Kullanarak Bir cumlenin içindeki karakterlerin frekansını(adetini)
         // hesaplayıp print  code create ediniz
 
         Scanner input = new Scanner(System.in);

@@ -6,7 +6,7 @@ import java.util.Map;
 public class Task02 {
     public static void main(String[] args) {
              /*
-        Task ->
+        TaskSahaf.txt ->
          Key: isim ,email, adres, telefon
          Key'lere ait value'leri depolayan bir kartvizit map
           ve kartvisit isminde nested map create ederek title Key olsun

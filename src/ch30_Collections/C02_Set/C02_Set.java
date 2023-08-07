@@ -20,7 +20,7 @@ public class C02_Set {
      */
     public static void main(String[] args) {
 
-//Task set olusturup eleman ekleyyim iterator ile loop icinde elemanlari tek tek alin yazin
+//TaskSahaf.txt set olusturup eleman ekleyyim iterator ile loop icinde elemanlari tek tek alin yazin
 
         Set< String > set = new HashSet<>();
         set.add("hamburg");

@@ -17,7 +17,7 @@ public class C10_isEmpty {
         String hi = "hello";
         System.out.println(hi.isEmpty());//false
 
-        //Task->  2 : kullanici isim girsin. siz kullancinin isim girip girmedigi kontrol edin
+        //TaskSahaf.txt->  2 : kullanici isim girsin. siz kullancinin isim girip girmedigi kontrol edin
                 //isim girdiyse devam etsin girmediyse yeniden denesin
 
         Scanner input =new Scanner(System.in);

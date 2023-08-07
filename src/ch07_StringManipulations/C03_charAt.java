@@ -35,7 +35,7 @@ public class C03_charAt {
         //Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 21
 
 
-        // Task-> istanbul izmir  girilen kelimenin kelimesinin ortadaki karakteri
+        // TaskSahaf.txt-> istanbul izmir  girilen kelimenin kelimesinin ortadaki karakteri
         // print eden code create ediniz...
         Scanner input = new Scanner(System.in);
         System.out.println("bir sehir ismi gir");

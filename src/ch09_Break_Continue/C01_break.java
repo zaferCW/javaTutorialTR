@@ -18,7 +18,7 @@ public class C01_break {
          */
 
 
-        // Task -> girilen bir mail hesabının @ sembolune kadar olan karakterlerni print eden code create ediniz.
+        // TaskSahaf.txt -> girilen bir mail hesabının @ sembolune kadar olan karakterlerni print eden code create ediniz.
 
         Scanner input = new Scanner(System.in);
         System.out.println("mail gir");
