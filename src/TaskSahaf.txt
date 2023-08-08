@@ -1,4 +1,4 @@
-/
+
 		 * ==================== PROJE==============================
 		 * bir sahaf icin program yazalim kitap no 1000'den baslayacak sirali no
 		 olsun program

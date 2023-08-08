@@ -1,0 +1,48 @@
+
+		 * ==================== PROJE==============================
+		 * bir sahaf icin program yazalim kitap no 1000'den baslayacak sirali no
+		 olsun program
+		 * baslayinca menu isminde bir method calissin
+		 giris isminde bir method olusturmaliyim,
+		 * 1-kitap ekle
+		 * 2-numara ile kitap goruntule
+		 * 3-bilgi ile kitap goruntule
+		 * 4-numara ile kitap sil
+		 * 5-tum kitaplari listele
+		 * 6-cikis
+
+		 not methodlari listleri map leri interface de tanimla
+		 ************************************
+		 * 1-Kitap Pojo Class create et
+		 fields
+		 kitap no
+		 kitap adi
+		 yazar adi
+		 kitap fiyati
+
+		 * kitaplari bir list'te tut
+		 * 2-kitap numarasi 1000'den baslamali,her kitap
+		 eklendiginde bir artacagi icin sayac gibi dusunulebilinir
+		 * 3- methods Class create edip methodlari ordan implment et
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

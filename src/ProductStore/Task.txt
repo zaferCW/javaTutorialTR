@@ -1,0 +1,89 @@
+************** BU PROGRAMDA SU ISLEMLER YAPILMAKTADIR**********
+   ============= ISLEMLER =============
+         1-addItem    *** create
+         2-getProducts   *** read
+         3-delete        *** delete
+         4-ANA MENU    ***   menu
+         Q-CIKIS     ***  exit
+
+        datalarimizi list , map gibi collection da tut
+        encapsulation POJO class create edilmeli
+
+
+    1. step  Brand class => POJO classdir. hermarka icin  name;
+
+    2. step  Product class  olmasi gereken instance variable lar
+     tanimlanmali
+        id name price discountRate, amount brand, screenSize,
+         ram memory
+           her POJO class da oldugu gubi constructor
+                 ve getter setter lari toString create et
+
+    3. step DataBase interface create edip listleri mapleri Scanner i
+     orda tut
+
+    4. step Brand class da
+     static blockdan brand olusturan kod yaziniz
+            print method yazabilirz.
+            girilen id yi alip mapden control eden varsa objeyi  donen
+            yoksa null donen method
+
+    5. step   productAbstract class create edip bunu parent yap.
+        abstract olsun ve methodlari burda tanimla
+
+    6.step NoteBook child yap ProductAbstract in
+    laptop list olmali
+    product daki abstract meth ler burada override edilme zorunda
+    method body leri ve logic leri yaz
+
+    7.step Store class olsun anamenu methodu olsun  uygulama
+    buradan baslasin method call burada olsun
+    user ilk bu vitrni gorsun
+    yapilaacak islemler buradan yonlendirilsin
+      System.out.println("notbook islemleri icin 1\n" +
+                    "marka listeleme icin 2\n" +
+                    "cikis iicn 3 tuslarina basiniz");
+
+    8.step  Main class store class dan run edilsin
+    trick Store claass indan obje create edilmeli
+    her java class inda gorunmeyen default empty constructor vardir
+    biz pm li bir const. create ettigimiz zaman bu default const ezilir. tekrar manuel pm siz const yazmaliyiz
+
+    //TODO
+     notbook larin adedi map de tuutulabilir
+     key integer id si, value integer adet
+
+     chatGPt den
+                +--------------+                +---------------+
+                |    Product   |                |     Brand     |
+                +--------------+                +---------------+
+                | -id: int     |                | -id: int      |
+                | -name: String|                | -name: String|
+                | -price: double|               | -items: List  |
+                | -discountRate: double|         +---------------+
+                | -amount: int |                | +print(): void|
+                | -brand: Brand|                | +findItemById(id:int): boolean|
+                | -screenSize: int |
+                | -ram: int |
+                | -memory: int |
+                +--------------+
+                       ^                                                    ^
+                       |                                                    |
+                +--------------+                                     +----------------+
+                |   NoteBook   |                                     |      Store     |
+                +--------------+                                     +----------------+
+                |              |                                     | -laptops: List |
+                +--------------+                                     +----------------+
+                | +setScreenSize(screenSize: int): void |
+                | +getScreenSize(): int |
+                | +setRam(ram: int): void |
+                | +getRam(): int |
+                | +setMemory(memory: int): void |
+                | +getMemory(): int |
+                | +getDiscountedPrice(): double |
+                +--------------+                              | +addItem(product: Product): void|
+                                                               | +deleteItem(id: int): void|
+                                                               | +getProducts(): List|
+                                                               | +menu(): void|
+                                                               +----------------+
+
