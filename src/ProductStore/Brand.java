@@ -23,6 +23,10 @@ public class Brand implements DataBase{
     DataBase.mapBrand.put(6L , new Brand("Casper"));
     DataBase.mapBrand.put(7L , new Brand("Monster"));
     }
+    public Brand(String name) {
+        this.name = name;
+    }
+
 
     public static void printBrands() {
         System.out.println(" brand ler mapden geliyor");
@@ -42,9 +46,6 @@ public class Brand implements DataBase{
         return null;
     }
 
-    public Brand(String name) {
-        this.name = name;
-    }
 
     public Brand() {
     }
